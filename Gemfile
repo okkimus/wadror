@@ -45,7 +45,7 @@ group :development, :test do
 end
 
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'rspec-its'
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -68,4 +68,5 @@ group :test do
   gem 'factory_girl_rails'
   gem 'capybara'
   gem 'launchy'
+  gem 'simplecov', require: false
 end

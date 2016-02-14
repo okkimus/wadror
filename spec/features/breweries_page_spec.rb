@@ -35,7 +35,3 @@ describe "Breweries page" do
 
   end
 end
-
-def sao
-  save_and_open_page
-end

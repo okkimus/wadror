@@ -6,4 +6,8 @@ module Helpers
     fill_in('password', with:credentials[:password])
     click_button('Log in')
   end
+
+  def sao
+    save_and_open_page
+  end
 end
