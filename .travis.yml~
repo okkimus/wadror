@@ -9,9 +9,4 @@ script:
  - bundle exec rake db:test:prepare
  - bundle exec rspec -fd spec/
 
-deploy:
-  provider: heroku
-  api_key:
-    secure: "7abf9ce1-4adf-4224-ac27-6a4a89f8ad56"
-  app: ratebeer
-  run: "rake db:migrate"
+

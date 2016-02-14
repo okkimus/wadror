@@ -26,7 +26,7 @@ Command line:
 
      There is absolutely no warranty on any results obtained from TRAVIS.
 
-  #  Running on dhcp-asv-104 at Sun Feb 14 22:46:44 2016 (PID 21876).
+  #  Running on dhcp-asv-104 at Sun Feb 14 23:10:37 2016 (PID 22875).
   #  Running in /home/mime/rubyweba/ratebeer
   #  Source code version: Jan 17 2014.
   #  Compiled at Jan 19 2014 05:12:11.
@@ -35,7 +35,7 @@ Command line:
   #  Compile flags: DEBUG_ARRAYS 
   #  Machine: int=4b, long=8b, addr=8b, 0xA0B0C0D0=D0,C0,B0,A0.
   #  User home: /home/mime
-  #  Exe path: /usr/bin/travis
+  #  Exe path: /home/mime/.rbenv/shims/travis
   #  Input from terminal, Output to terminal
 
  >>> Please use a color scheme with dark background or specify "-nocolor"! <<<
