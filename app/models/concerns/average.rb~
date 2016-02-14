@@ -1,9 +1,0 @@
-module Average
-
-  def average_rating
-    rates = self.ratings
-    l = rates.map {|rate| rate.score}
-    sum = l.inject(0) {|sum, x| sum + x}
-    sum.to_f / l.count
-  end
-end
